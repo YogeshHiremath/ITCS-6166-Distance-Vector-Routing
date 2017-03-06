@@ -26,11 +26,13 @@ Output format:
 Your program should produce a terminal output each time it sends out the routing information to its neighbors (i.e., once every 15 seconds). Each such output should include an incremental output number (1 for the first output, 2 for the second output, etc.). Each output should also include the cost and the next hop for the shortest paths to all other network nodes. For instance, one of the terminal outputs at node a may look like the following.
 
 > output number 4
+
 shortest path a-b: the next hop is
 shortest path a-c: the next hop is
 shortest path a-d: the next hop is
 shortest path a-e: the next hop is
 shortest path a-f: the next hop is
+
 b and the cost is 2.0
 d and the cost is 3.0
 d and the cost is 1.0
