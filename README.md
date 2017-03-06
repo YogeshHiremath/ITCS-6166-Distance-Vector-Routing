@@ -27,17 +27,17 @@ Your program should produce a terminal output each time it sends out the routing
 
 > output number 4
 
-shortest path a-b: the next hop is
-shortest path a-c: the next hop is
-shortest path a-d: the next hop is
-shortest path a-e: the next hop is
-shortest path a-f: the next hop is
+>>shortest path a-b: the next hop is
+>>shortest path a-c: the next hop is
+>>shortest path a-d: the next hop is
+>>shortest path a-e: the next hop is
+>>shortest path a-f: the next hop is
 
-b and the cost is 2.0
-d and the cost is 3.0
-d and the cost is 1.0
-d and the cost is 2.0
-d and the cost is 4.0
+>b and the cost is 2.0
+>d and the cost is 3.0
+>d and the cost is 1.0
+>d and the cost is 2.0
+>d and the cost is 4.0
 
 You must produce the terminal output from the first time the host sends out its routing information to its neighbors. As expected, the first a few outputs often contain immature routing information.
 
