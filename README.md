@@ -16,28 +16,31 @@ Your program at router x should take a text file as input, which describes the s
 The input files at all hosts will look like the following: a.dat, b.dat, c.dat, d.dat, e.dat, and f.dat. Be aware that we might use different network topologies in our testing.
 
 Example for a.dat
+
       3
+      
       b 2.0
+      
       c 5.0
+      
       d 1.0
 
 
 Output format:
 Your program should produce a terminal output each time it sends out the routing information to its neighbors (i.e., once every 15 seconds). Each such output should include an incremental output number (1 for the first output, 2 for the second output, etc.). Each output should also include the cost and the next hop for the shortest paths to all other network nodes. For instance, one of the terminal outputs at node a may look like the following.
 
-> output number 4
+output number 4
 
->>shortest path a-b: the next hop is
->>shortest path a-c: the next hop is
->>shortest path a-d: the next hop is
->>shortest path a-e: the next hop is
->>shortest path a-f: the next hop is
+ >shortest path a-b: the next hop is b and the cost is 2.0
 
->b and the cost is 2.0
->d and the cost is 3.0
->d and the cost is 1.0
->d and the cost is 2.0
->d and the cost is 4.0
+> shortest path a-c: the next hop is d and the cost is 3.0
+
+> shortest path a-d: the next hop is d and the cost is 1.0
+
+> shortest path a-e: the next hop is d and the cost is 2.0
+
+>shortest path a-f: the next hop is d and the cost is 4.0
+
 
 You must produce the terminal output from the first time the host sends out its routing information to its neighbors. As expected, the first a few outputs often contain immature routing information.
 
